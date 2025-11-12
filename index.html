@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explore stunning astrophotography — celestial objects, deep sky imaging, and breathtaking night sky photography." />
+  <meta name="keywords" content="astrophotography, night sky photography, celestial photography, milky way, nebula, galaxies, telescope photography" />
+  <meta name="author" content="Shamod Calhoun" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <title>Cosmic Captures — Astrophotography Gallery</title>
+
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link rel="preconnect" href="https://picsum.photos" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site">
+    <header>
+      <h1>Cosmic Captures</h1>
+      <p class="small">A Collection of Deep Sky & Night Sky Photography</p>
+
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#featured">Featured</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="hero" class="hero-compact" aria-labelledby="hero-title">
+      <div>
+        <h2 id="hero-title">Journey Through the Cosmos</h2>
+        <p class="lead">Explore breathtaking images of galaxies, nebulae, planets, and the vast beauty of our night sky.</p>
+        <a href="#gallery" class="cta-button">Explore Gallery</a>
+      </div>
+
+      <aside id="featured" aria-labelledby="featured-title" class="featured-aside">
+        <h3 id="featured-title">Featured Image</h3>
+        <figure>
+          <img 
+            src="https://images.unsplash.com/photo-1515705576963-95cad62945b6?auto=format&fit=crop&q=60&w=700" 
+            alt="Milky Way over landscape" 
+            width="700" 
+            height="467" 
+            loading="lazy"
+          />
+          <figcaption>Milky Way Core — Long Exposure Panorama</figcaption>
+        </figure>
+        <p class="small">Captured using a tracked exposure with multiple frames stitched together.</p>
+      </aside>
+    </section>
+
+    <main class="main-grid" role="main">
+      <section id="gallery" aria-labelledby="gallery-title">
+        <h2 id="gallery-title">Gallery</h2>
+        
+        <div class="gallery-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="deepsky">Deep Sky</button>
+          <button class="filter-btn" data-filter="planets">Planets</button>
+          <button class="filter-btn" data-filter="milkyway">Milky Way</button>
+          <button class="filter-btn" data-filter="nebula">Nebulae</button>
+        </div>
+
+        <div class="gallery" role="list">
+          <figure role="listitem" data-category="milkyway">
+            <img 
+              src="https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?auto=format&fit=crop&q=80&w=800" 
+              alt="Milky Way over mountains" 
+              width="800" 
+              height="600" 
+              loading="lazy"
+            />
+            <figcaption>Milky Way Arch</figcaption>
+          </figure>
+
+          <figure role="listitem" data-category="deepsky">
+            <img 
+              src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&q=80&w=800" 
+              alt="Deep sky nebula" 
+              width="800" 
+              height="600" 
+              loading="lazy"
+            />
+            <figcaption>Orion Nebula Region</figcaption>
+          </figure>
+
+          <figure role="listitem" data-category="milkyway">
+            <img 
+              src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?auto=format&fit=crop&q=80&w=800" 
+              alt="Night sky with Milky Way" 
+              width="800" 
+              height="600" 
+              loading="lazy"
+            />
+            <figcaption>Milky Way Core Rising</figcaption>
+          </figure>
+
+          <figure role="listitem" data-category="planets">
+            <img 
+              src="https://images.unsplash.com/photo-1614732414444-096e5f1122d5?auto=format&fit=crop&q=80&w=800" 
+              alt="Moon surface detail" 
+              width="800" 
+              height="600" 
+              loading="lazy"
+            />
+            <figcaption>Lunar Surface Detail</figcaption>
+          </figure>
+
+          <figure role="listitem" data-category="nebula">
+            <img 
+              src="https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?auto=format&fit=crop&q=80&w=800" 
+              alt="Colorful nebula" 
+              width="800" 
+              height="600" 
+              loading="lazy"
+            />
+            <figcaption>Emission Nebula</figcaption>
+          </figure>
+
+          <figure role="listitem" data-category="deepsky">
+            <img 
+              src="../../../assets/images/deepskystarfield.png" 
+              alt="Star field" 
+              width="800" 
+              height="600" 
+              loading="lazy"
+            />
+            <figcaption>Deep Sky Star Field</figcaption>
+          </figure>
+
+          <figure role="listitem" data-category="milkyway">
+            <img 
+              src="../../../assets/images/desertnightsky.png" 
+              alt="Milky Way landscape" 
+              width="800" 
+              height="600" 
+              loading="lazy"
+            />
+            <figcaption>Desert Night Sky</figcaption>
+          </figure>
+
+          <figure role="listitem" data-category="planets">
+            <img 
+              src="https://images.unsplash.com/photo-1543722530-d2c3201371e7?auto=format&fit=crop&q=80&w=800" 
+              alt="Solar system planets" 
+              width="800" 
+              height="600" 
+              loading="lazy"
+            />
+            <figcaption>Planetary Observation</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <aside aria-label="Sidebar" class="sidebar">
+        <section id="about" aria-labelledby="about-title">
+          <h3 id="about-title">About This Collection</h3>
+          <p class="small">Welcome to my astrophotography gallery. Each image captures the wonder of our universe, from distant galaxies to the planets in our own solar system.</p>
+          <p class="small">These photographs represent countless hours under dark skies, patiently capturing the beauty of the cosmos through careful planning and precise technique.</p>
+        </section>
+
+        <section id="equipment" aria-labelledby="equipment-title" class="gear-section">
+          <h3 id="equipment-title">Equipment</h3>
+          <ul class="small">
+            <li><strong>Telescope:</strong> Celestron NexStar 6SE</li>
+            <li><strong>Camera:</strong> Canon EOS R</li>
+            <li><strong>Mount:</strong> Sky-Watcher EQ6-R Pro</li>
+            <li><strong>Processing:</strong> PixInsight, Photoshop</li>
+          </ul>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-title" class="resources-section">
+          <h3 id="contact-title">Connect</h3>
+          <form id="contactForm" class="contact-form">
+            <label>
+              Name
+              <input type="text" id="contact-name" placeholder="Your name" required />
+            </label>
+            
+            <label>
+              Email
+              <input type="email" id="contact-email" placeholder="your@email.com" required />
+            </label>
+            
+            <label>
+              Message
+              <textarea id="contact-message" placeholder="Your message..." rows="4" required></textarea>
+            </label>
+            
+            <button type="submit">Send Message</button>
+          </form>
+        </section>
+
+        <section class="social-links resources-section">
+          <h3>Follow</h3>
+          <ul>
+            <li><a href="#" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="#" target="_blank" rel="noopener">AstroBin</a></li>
+            <li><a href="#" target="_blank" rel="noopener">Flickr</a></li>
+          </ul>
+        </section>
+      </aside>
+    </main>
+
+    <section id="fun-facts" class="fun-facts-section" aria-labelledby="fun-facts-title">
+      <h2 id="fun-facts-title">Cosmic Curiosities</h2>
+      <div class="fact-container">
+        <p id="space-fact">Loading a fact about the universe...</p>
+      </div>
+    </section>
+
+
+    <footer>
+      <p>© 2025 Cosmic Captures | Images by Various Authors, curated from free stock sources</p>
+      <p class="small">All images captured from various dark sky locations</p>
+    </footer>
+  </div>
+  <!-- ===============================
+       Minimal script hooks (optional)
+       TODO: implement script.js with:
+       - gallery lightbox
+       - log form persistence (localStorage)
+       - upload button & file handling
+  ================================== -->
+
+  <script src="script.js"></script>
+</body>
+</html>
+

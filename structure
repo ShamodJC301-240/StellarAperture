@@ -1,0 +1,17 @@
+celestial-tracker/
+│
+├── index.html              → Dashboard (tonight’s conditions)
+├── skymap.html             → Interactive sky map
+├── photolog.html           → Upload and view photo logs
+├── events.html             → Celestial calendar
+├── weather.html            → Cloud cover, light pollution
+│
+├── css/
+│   └── style.css
+├── js/
+│   ├── main.js
+│   ├── photolog.js
+│   ├── events.js
+│   └── skymap.js
+└── data/
+    └── events.json

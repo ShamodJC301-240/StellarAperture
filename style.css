@@ -1,0 +1,54 @@
+:root {
+  --deep-space: #0b0c10;
+  --star-silver: #c0c0c0;
+  --nebula-purple: #6a0dad;
+  --comet-blue: #1e90ff;
+  --galaxy-pink: #ff69b4;
+}
+* {
+  margin: 5px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth; /* Enables smooth scrolling for anchor links */
+}
+body{
+  background-color: #0b0c10;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background: var(--deep-space);
+  color: var(--star-silver);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+.fun-facts-section { /* New Section for Fun Facts */
+  text-align: center;
+  background: radial-gradient(ellipse at center, #0a0a1a 0%, #000 100%);
+  color: #d9e4ff;
+  padding: 3rem 1.5rem; /* Increased padding for better spacing */
+  margin-top: 4rem; /* Space above the section */
+  border-top: 1px solid rgba(255, 255, 255, 0.1); /* Subtle top border */
+}
+
+.fun-facts-section h2 {
+  font-size: 2rem; /* Increased font size for better visibility */
+  margin-bottom: 1.5rem; /* Space below the heading */
+  color: #88c9ff; /* Lighter color for heading */
+  text-shadow: 0 0 10px rgba(136, 201, 255, 0.4); /* Glow effect */
+}
+
+.fact-container {
+  position: relative; /* For positioning the fade-out effect */
+  min-height: 100px; /* Ensure enough height for content */
+  max-width: 600px; /* Limit width for better readability */
+  margin: 0 auto; /* Center the container */
+  font-size: 1.2rem; /* Increased font size for readability */
+  font-style: italic; /* Italic style for fun effect */
+  transition: opacity 1s ease; /* Smooth fade transition */
+}
+
+.fade-out {
+  opacity: 0;
+}
